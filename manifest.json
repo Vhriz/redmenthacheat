@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "Redmenta Cheat",
+  "version": "0.1",
+
+  "description": "Kiüti a forrásmegjelölés kötelezését Redmentán",
+
+  "content_scripts": [
+    {
+      "matches": ["https://redmenta.com/*"],
+      "js": ["ks_kitoltes.js"]
+    }
+  ]
+
+}
